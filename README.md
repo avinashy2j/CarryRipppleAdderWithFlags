@@ -3,7 +3,7 @@ ASIC implementation of 64-bit CRA with flags
 
 # Design Description
 The design uses 4-bit CRAs to structurally define 64-bit Carry Ripple Adder. This design has following flags:
-Zero flag :ZR
+Zero flag :ZR /
 Overflow flag :O
 Parity flag :P
 Sign flag :S
