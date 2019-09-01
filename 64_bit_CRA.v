@@ -1,4 +1,4 @@
-module CRA64 (X,Y,Z,S,ZR,C,P,O);
+module CRA64 (X,Y,Z,S,ZR,C,P,O); //CarryRippleAdder
 input[63:0] X,Y;
 output[63:0] Z;
 output S,C,ZR,P,O;
@@ -25,7 +25,7 @@ adder_4 A14(Z[59:56],c[15],X[59:56],Y[59:56],c[14]);
 adder_4 A15(Z[63:60],C,X[63:60],Y[63:60],c[15]);
 endmodule
 
-module adder_4 (S,cout,A,B,cin);
+module adder_4 (S,cout,A,B,cin); //4-bit CarryRippleAdder
 input[3:0] A,B;
 input cin;
 output cout;
